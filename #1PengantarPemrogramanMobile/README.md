@@ -2,11 +2,9 @@
 
 ## Identitas Mahasiswa
 
-| Atribut | Nilai                        |
-| ------- | -----                        |
 | Nama    | Fiza Rahmatus Sholikha      |
 | NIM     | 244107060109                |
-| Kelas   | SIB-2E                       |
+| Kelas   | SIB-2E                      |
 
 ---
 
@@ -14,7 +12,7 @@
 
 ### Hasil Flutter Doctor
 
-Berikut adalah hasil dari perintah `flutter doctor -v` yang menunjukkan bahwa semua komponen telah terinstal dan terkonfigurasi dengan baik:
+Berikut adalah hasil dari perintah `flutter doctor` yang menunjukkan bahwa semua komponen telah terinstal dan terkonfigurasi dengan baik:
 
 ![Hasil Flutter Doctor](FlutterDoctor.png)
 
