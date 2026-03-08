@@ -505,7 +505,7 @@ void main() {
 
 **Screenshot Hasil run perbaikan**
 
-![Hasil run perbaikan](img/HasilrunPraktikum5Langkah4Perbaikan.png)
+![Hasil run perbaikan](img/HasilrunPraktikum5Langkah4perbaikan.png)
 
 **Penjelasan**
 
