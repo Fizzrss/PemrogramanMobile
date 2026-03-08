@@ -318,6 +318,7 @@ void main() {
 ![Hasil run error](img/HasilrunPraktikum4Langkah4error.png)
 
 **Perbaikan kode promoActive = true**
+
 ![Kode program Praktikum 4 Langkah 4 - perbaikan](img/Praktikum4Langkah4Perbaikantrue.png)
 
 **Screenshot Hasil run perbaikan promoActive = true**
@@ -325,6 +326,7 @@ void main() {
 ![Hasil run perbaikan](img/HasilrunPraktikum4Langkah4perbaikantrue.png)
 
 **Perbaikan kode promoActive = false**
+
 ![Kode program Praktikum 4 Langkah 4 - perbaikan](img/Praktikum4Langkah4Perbaikanfalse.png)
 
 **Screenshot Hasil run perbaikan promoActive = false**
