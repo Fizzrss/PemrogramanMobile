@@ -81,7 +81,7 @@ Program tidak error dan menampilkan output isi dari variabel halogens karena var
 
 ### Langkah 3
 
-![Kode program Praktikum 2 Langkah 3 - Error](img/Praktikum2Langkah3error.png)
+![Kode program Praktikum 2 Langkah 3 - Error](img/Praktikum2Langkah3Error.png)
 
 **Screenshot Hasil run**
 
