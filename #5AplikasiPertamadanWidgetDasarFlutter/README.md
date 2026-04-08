@@ -8,7 +8,7 @@
 | NIM     | 244107060109                |
 | Kelas   | SIB-2E                      |
 
-LINK REPOSITORY KODE: https://github.com/Fizzrss/flutter-fundamental-part1
+[LINK REPOSITORY KODE PRAKTIKUM](https://github.com/Fizzrss/flutter-fundamental-part1)
 
 ---
 
@@ -271,7 +271,7 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 **Jawab**
 
-**Scaffold Widget**
+1. **Scaffold Widget**
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_scaffold_widget(1).png)
 
@@ -281,7 +281,7 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_scaffold_widget(3)_perbaikan.png)
 
-**Dialog Widget**
+2. **Dialog Widget**
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_dialog_widget(1).png)
 
@@ -289,7 +289,7 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_dialog_widget(3).png)
 
-**Input Widget**
+3. **Input Widget**
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_input_widget(1).png)
 
@@ -297,7 +297,7 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_input_widget(3).png)
 
-**Date Picker Widget**
+4. **Date Picker Widget**
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_date_picker(1).png)
 
@@ -305,7 +305,11 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 ![Tugas nomer 3 Scaffold Widget](img/TugasNomer3_date_picker(3).png)
 
-### 4. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+### 4. Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0), lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+
+jawab:
+
+[Lihat README Modul TextField](./CodeLabs.md)
 
 ### 5. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 

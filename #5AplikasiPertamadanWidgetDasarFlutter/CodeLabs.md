@@ -8,7 +8,7 @@
 | NIM     | 244107060109                |
 | Kelas   | SIB-2E                      |
 
-LINK REPOSITORY KODE: https://github.com/Fizzrss/flutter-fundamental-part1
+[LINK REPOSITORY KODE](https://github.com/Fizzrss/flutter_application_1)
 
 ---
 
