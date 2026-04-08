@@ -18,7 +18,7 @@
 
 Buka VS Code, lalu tekan tombol Ctrl + Shift + P maka akan tampil Command Palette, lalu ketik Flutter. Pilih New Application Project.
 
-![praktikum 1 Langkah 1](img/Praktikum1Langkah1.png)
+![praktikum 1 Langkah 1](img/praktikum1langkah1.png)
 
 ![praktikum 1 Langkah 1](img/praktikum1langkah1(1).png)
 
@@ -28,19 +28,19 @@ Buka VS Code, lalu tekan tombol Ctrl + Shift + P maka akan tampil Command Palett
 
 Kemudian buat folder sesuai style laporan praktikum yang Anda pilih. Disarankan pada folder dokumen atau desktop atau alamat folder lain yang tidak terlalu dalam atau panjang. Lalu pilih Select a folder to create the project in.
 
-![praktikum 1 Langkah 2](img/Praktikum1Langkah2.png)
+![praktikum 1 Langkah 2](img/praktikum1langkah2.png)
 
 ### Langkah 3
 
 Buat nama project flutter hello_world seperti berikut, lalu tekan Enter. Tunggu hingga proses pembuatan project baru selesai.
 
-![praktikum 1 Langkah 3](img/Praktikum1Langkah3.png)
+![praktikum 1 Langkah 3](img/praktikum1langkah3.png)
 
 ### Langkah 4
 
 Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti berikut. Pesan akan tampil berupa "Your Flutter Project is ready!" artinya Anda telah berhasil membuat project Flutter baru.
 
-![praktikum 1 Langkah 4](img/Praktikum1Langkah4.png)
+![praktikum 1 Langkah 4](img/praktikum1langkah4.png)
 
 ---
 
@@ -61,7 +61,7 @@ Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti beri
 
 ### Menginstal Driver USB Google
 
-![praktikum 2 Langkah 6](img/Praktikum2.png)
+![praktikum 2 Langkah 6](img/praktikum2.png)
 
 ---
 
@@ -71,83 +71,83 @@ Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti beri
 
 Login ke akun GitHub Anda, lalu buat repository baru dengan nama "flutter-fundamental-part1"
 
-![praktikum 3 Langkah 1](img/Praktikum3Langkah1.png)
+![praktikum 3 Langkah 1](img/praktikum3langkah1.png)
 
 ### Langkah 2
 
 Lalu klik tombol "Create repository" lalu akan tampil seperti gambar berikut.
 
-![praktikum 3 Langkah 2](img/Praktikum3Langkah2.png)
+![praktikum 3 Langkah 2](img/praktikum3langkah2.png)
 
 ### Langkah 3
 
 Kembali ke VS code, project flutter hello_world, buka terminal pada menu Terminal > New Terminal. Lalu ketik perintah berikut untuk inisialisasi git pada project Anda.
 
-![praktikum 3 Langkah 3](img/Praktikum3Langkah3.png)
+![praktikum 3 Langkah 3](img/praktikum3langkah3.png)
 
 ### Langkah 4
 
 Pilih menu Source Control di bagian kiri, lalu lakukan stages (+) pada file .gitignore untuk mengunggah file pertama ke repository GitHub.
 
-![praktikum 3 Langkah 4](img/Praktikum3Langkah4.png)
+![praktikum 3 Langkah 4](img/praktikum3langkah4.png)
 
 ### Langkah 5
 
 Beri pesan commit "tambah gitignore" lalu klik Commit (✔)
 
-![praktikum 3 Langkah 5](img/Praktikum3Langkah5.png)
+![praktikum 3 Langkah 5](img/praktikum3langkah5.png)
 
 ### Langkah 6
 
 Lakukan push dengan klik bagian menu titik tiga > Push
 
-![praktikum 3 Langkah 6](img/Praktikum3Langkah6.png)
+![praktikum 3 Langkah 6](img/praktikum3langkah6.png)
 
 ### Langkah 7
 
 Di pojok kanan bawah akan tampil seperti gambar berikut. Klik "Add Remote"
 
-![praktikum 3 Langkah 7](img/Praktikum3Langkah7.png)
+![praktikum 3 Langkah 7](img/praktikum3langkah7.png)
 
 ### Langkah 8
 
 Salin tautan repository Anda dari browser ke bagian ini, lalu klik Add remote
 
-![praktikum 3 Langkah 8](img/Praktikum3Langkah8.png)
+![praktikum 3 Langkah 8](img/praktikum3langkah8.png)
 
 Setelah berhasil, tulis remote name dengan "origin"
 
-![praktikum 3 Langkah 8 add origin](img/Praktikum3Langkah8(origin).png)
+![praktikum 3 Langkah 8 add origin](img/praktikum3langkah8(origin).png)
 
 ### Langkah 9
 
 Lakukan hal yang sama pada file README.md mulai dari Langkah 4. Setelah berhasil melakukan push, masukkan username GitHub Anda dan password berupa token yang telah dibuat (pengganti password konvensional ketika Anda login di browser GitHub). Reload halaman repository GitHub Anda, maka akan tampil hasil push kedua file tersebut seperti gambar berikut.
 
-![praktikum 3 Langkah 9](img/Praktikum3Langkah9.png)
+![praktikum 3 Langkah 9](img/praktikum3langkah9.png)
 
 ### Langkah 10
 
 Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri pesan commit "project hello_world". Maka akan tampil di repository GitHub Anda seperti berikut.
 
-![praktikum 3 Langkah 10](img/Praktikum3Langkah10(1).png)
+![praktikum 3 Langkah 10](img/praktikum3langkah10(1).png)
 
-![praktikum 3 Langkah 10](img/Praktikum3Langkah10(2).png)
+![praktikum 3 Langkah 10](img/praktikum3langkah10(2).png)
 
-![praktikum 3 Langkah 10](img/Praktikum3Langkah10(3).png)
+![praktikum 3 Langkah 10](img/praktikum3langkah10(3).png)
 
-![praktikum 3 Langkah 10](img/Praktikum3Langkah10(4).png)
+![praktikum 3 Langkah 10](img/praktikum3langkah10(4).png)
 
 ### Langkah 11
 
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
 
-![praktikum 3 Langkah 11](img/Praktikum3Langkah11.png)
+![praktikum 3 Langkah 11](img/praktikum3langkah11.png)
 
 ### Langkah 12
 
 Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
 
-![praktikum 3 Langkah 12](img/Praktikum3Langkah12.png)
+![praktikum 3 Langkah 12](img/praktikum3langkah12.png)
 
 ---
 
@@ -157,33 +157,33 @@ Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam ap
 
 Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di dalam basic_widgets dengan nama text_widget.dart. Ketik atau salin kode program berikut ke project hello_world Anda pada file text_widget.dart.
 
-![praktikum 4 Langkah 1](img/Praktikum4Langkah1_(1).png)
+![praktikum 4 Langkah 1](img/praktikum4langkah1_(1).png)
 
-![praktikum 4 Langkah 1](img/Praktikum4Langkah1_(2).png)
+![praktikum 4 Langkah 1](img/praktikum4langkah1_(2).png)
 
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
-![praktikum 4 Langkah 1](img/Praktikum4Langkah1_(3).png)
+![praktikum 4 Langkah 1](img/praktikum4langkah1_(3).png)
 
-![praktikum 4 Langkah 1](img/Praktikum4Langkah1_(4).png)
+![praktikum 4 Langkah 1](img/praktikum4langkah1_(4).png)
 
 ### Langkah 2: Image Widget
 
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
 
-![praktikum 4 Langkah 2](img/Praktikum4Langkah2_(1).png)
+![praktikum 4 Langkah 2](img/praktikum4langkah2_(1).png)
 
-![praktikum 4 Langkah 2](img/Praktikum4Langkah2_(2).png)
+![praktikum 4 Langkah 2](img/praktikum4langkah2_(2).png)
 
 Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
 
-![praktikum 4 Langkah 2](img/Praktikum4Langkah2_(3).png)
+![praktikum 4 Langkah 2](img/praktikum4langkah2_(3).png)
 
-![praktikum 4 Langkah 2](img/Praktikum4Langkah2_(4).png)
+![praktikum 4 Langkah 2](img/praktikum4langkah2_(4).png)
 
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
 
-![praktikum 4 Langkah 2](img/Praktikum4Langkah2_(5).png)
+![praktikum 4 Langkah 2](img/praktikum4langkah2_(5).png)
 
 ---
 
@@ -193,13 +193,13 @@ Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gam
 
 Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
-![praktikum 5 Langkah 1](img/Praktikum5Langkah1_(1).png)
+![praktikum 5 Langkah 1](img/praktikum5langkah1_(1).png)
 
-![praktikum 5 Langkah 1](img/Praktikum5Langkah1_(2).png)
+![praktikum 5 langkah 1](img/praktikum5langkah1_(2).png)
 
-![praktikum 5 Langkah 1](img/Praktikum5Langkah1_(3).png)
+![praktikum 5 Langkah 1](img/praktikum5langkah1_(3).png)
 
-![praktikum 5 Langkah 1](img/Praktikum5Langkah1_(4).png)
+![praktikum 5 Langkah 1](img/praktikum5langkah1_(4).png)
 
 ### Langkah 2: Floating Action Button (FAB)
 
@@ -207,19 +207,19 @@ Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButt
 
 Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2_(1).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2_(1).png)
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2_(2).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2_(2).png)
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2_(3).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2_(3).png)
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2_(4).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2_(4).png)
 
 **KODE PERBAIKAN**
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2Perbaikan_(1).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2Perbaikan_(1).png)
 
-![praktikum 5 Langkah 2](img/Praktikum5Langkah2Perbaikan_(2).png)
+![praktikum 5 Langkah 2](img/praktikum5langkah2Perbaikan_(2).png)
 
 ### Langkah 3: Scaffold Widget
 
@@ -227,9 +227,9 @@ Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material desig
 
 Ubah isi kode main.dart seperti berikut.
 
-![praktikum 5 Langkah 3](img/Praktikum5Langkah3_(1).png)
+![praktikum 5 Langkah 3](img/praktikum5langkah3_(1).png)
 
-![praktikum 5 Langkah 3](img/Praktikum5Langkah3_(2).png)
+![praktikum 5 Langkah 3](img/praktikum5langkah3_(2).png)
 
 ### Langkah 4: Dialog Widget
 
@@ -237,9 +237,9 @@ Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan Simpl
 
 Ubah isi kode main.dart seperti berikut.
 
-![praktikum 5 Langkah 4](img/Praktikum5Langkah4_(1).png)
+![praktikum 5 Langkah 4](img/praktikum5langkah4_(1).png)
 
-![praktikum 5 Langkah 4](img/Praktikum5Langkah4_(2).png)
+![praktikum 5 Langkah 4](img/praktikum5langkah4_(2).png)
 
 ### Langkah 5: Input dan Selection Widget
 
@@ -247,17 +247,17 @@ Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yait
 
 Contoh penggunaan TextField widget adalah sebagai berikut:
 
-![praktikum 5 Langkah 5](img/Praktikum5Langkah5_(1).png)
+![praktikum 5 Langkah 5](img/praktikum5langkah5_(1).png)
 
-![praktikum 5 Langkah 5](img/Praktikum5Langkah5_(2).png)
+![praktikum 5 Langkah 5](img/praktikum5langkah5_(2).png)
 
 ### Langkah 6: Date and Time Pickers
 
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 
-![praktikum 5 Langkah 6](img/Praktikum5Langkah6_(1).png)
+![praktikum 5 Langkah 6](img/praktikum5langkah6_(1).png)
 
-![praktikum 5 Langkah 6](img/Praktikum5Langkah6_(2).png)
+![praktikum 5 Langkah 6](img/praktikum5langkah6_(2).png)
 
 ----
 
