@@ -22,7 +22,7 @@ Buka VS Code, lalu tekan tombol Ctrl + Shift + P maka akan tampil Command Palett
 
 ![praktikum 1 Langkah 1](img/praktikum1langkah1(1).png)
 
-**Catatan:** Anda dapat mengakses Command Palette dengan cara lain, yaitu pilih menu View > Command Palette. Tombol shortcut Ctrl + Shift + P mungkin hanya berlaku di Windows.
+*Catatan:* Anda dapat mengakses Command Palette dengan cara lain, yaitu pilih menu View > Command Palette. Tombol shortcut Ctrl + Shift + P mungkin hanya berlaku di Windows.
 
 ### Langkah 2
 
