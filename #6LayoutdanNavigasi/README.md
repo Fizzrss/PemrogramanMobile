@@ -8,7 +8,9 @@
 | NIM     | 244107060109                |
 | Kelas   | SIB-2E                      |
 
-[LINK REPOSITORY KODE PRAKTIKUM]()
+[LINK REPOSITORY KODE PRAKTIKUM 1 - 3](https://github.com/Fizzrss/layout_flutter)
+
+[LINK REPOSITORY KODE PRAKTIKUM 5 DAN TUGAS 2](https://github.com/Fizzrss/belanja)
 
 ---
 
@@ -44,15 +46,15 @@ Langkah pertama adalah memecah tata letak menjadi elemen dasarnya:
 
 Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen disusun menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks.
 
-![praktikum 1 Langkah 3](img/)
+![praktikum 1 Langkah 3](img/Praktikum1Langkah3(1).png)
 
 Selanjutnya, buat diagram setiap baris. Baris pertama, disebut bagian Judul, memiliki 3 anak: kolom teks, ikon bintang, dan angka. Anak pertamanya, kolom, berisi 2 baris teks. Kolom pertama itu memakan banyak ruang, sehingga harus dibungkus dengan widget yang Diperluas.
 
-![praktikum 1 Langkah 3](img/)
+![praktikum 1 Langkah 3](img/Praktikum1Langkah3(2).png)
 
 Baris kedua, disebut bagian Tombol, juga memiliki 3 anak: setiap anak merupakan kolom yang berisi ikon dan teks.
 
-![praktikum 1 Langkah 3](img/)
+![praktikum 1 Langkah 3](img/Praktikum1Langkah3(3).png)
 
 Setelah tata letak telah dibuat diagramnya, cara termudah adalah dengan menerapkan pendekatan bottom-up. Untuk meminimalkan kebingungan visual dari kode tata letak yang banyak bertumpuk, tempatkan beberapa implementasi dalam variabel dan fungsi.
 
@@ -158,7 +160,13 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 ## Tugas Praktikum 1
 
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
+
+[LINK REPOSITORY KODE PRAKTIKUM 1 - 3](https://github.com/Fizzrss/layout_flutter)
+
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
+
+[LINK REPOSITORY KODE TUGAS 1 NOMER 2](https://github.com/Fizzrss/basic_layout_flutter)
+
 3. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
 
 ---
@@ -228,3 +236,122 @@ Jalankan aplikasi kembali dan pastikan ListView dapat disentuh dan berpindah ke 
 ![praktikum 5 Langkah 7](img/Praktikum5Langkah7(3).png)
 
 ![praktikum 5 Langkah 7](img/Praktikum5Langkah7(4).png)
+
+---
+
+## Tugas Praktikum 2
+1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator. Perbarui kode pada bagian Navigator menjadi seperti berikut.
+
+``` dart
+Navigator.pushNamed(context, '/item', arguments: item);
+```
+*jawab*:
+
+![tugas 2 nomer 1](img/Tugas2Nomer1.png)
+
+**Hasil Output:**
+
+![tugas 2 nomer 1](img/Tugas2Nomer1(1).png)
+
+![tugas 2 nomer 1](img/Tugas2Nomer1(2).png)
+
+2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage. Setelah nilai didapatkan, anda dapat menggunakannya seperti penggunaan variabel pada umumnya. (https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments)
+
+``` dart
+final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
+```
+*jawab:*
+
+![tugas 2 nomer 2](img/Tugas2Nomer2(1).png)
+
+**Hasil Output:**
+
+![tugas 2 nomer 2](img/Tugas2Nomer2(2).png)
+
+3. Pada hasil akhir dari aplikasi belanja yang telah anda selesaikan, tambahkan atribut foto produk, stok, dan rating. Ubahlah tampilan menjadi GridView seperti di aplikasi marketplace pada umumnya.
+
+*jawab:*
+
+**Menambahkan asset:**
+
+![tugas 2 nomer 3](img/Tugas2Nomer3(1).png)
+
+![tugas 2 nomer 3](img/Tugas2Nomer3(2).png)
+
+**Menambahkan Atribut di models/item.dart:**
+
+![tugas 2 nomer 3](img/Tugas2Nomer3(3).png)
+
+**Modifikasi pages/home_page.dart:**
+
+![tugas 2 nomer 3](img/Tugas2Nomer3(4).png)
+
+**Modifikasi pages/item_page.dart:**
+
+![tugas 2 nomer 3](img/Tugas2Nomer3(5).png)
+
+4. Silakan implementasikan Hero widget pada aplikasi belanja Anda dengan mempelajari dari sumber ini: https://docs.flutter.dev/cookbook/navigation/hero-animations
+
+*jawab:*
+
+**Modifikasi pages/home_page.dart:**
+
+![tugas 2 nomer 4](img/Tugas2Nomer4(1).png)
+
+**Modifikasi pages/item_page.dart:**
+
+![tugas 2 nomer 4](img/Tugas2Nomer4(2).png)
+
+**hasil output:**
+
+![tugas 2 nomer 4](img/Tugas2Nomer4(3).gif)
+
+**penjelasan:**
+
+Saat menekan sebuah produk, aplikasi akan berpindah ke halaman detail menggunakan perintah context.push. Kemudian sistem Flutter secara otomatis akan membaca kesamaan tag tersebut. Hasilnya, gambar dari halaman pertama akan terlihat beranimasi seolah-olah "terbang" dan membesar secara mulus menuju posisinya di halaman kedua. Hal ini membuat transisi navigasi menjadi lebih interaktif dibandingkan perpindahan halaman biasa.
+
+5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+
+*jawab:*
+
+**Modifikasi pages/home_page.dart:**
+
+![tugas 2 nomer 5](img/Tugas2Nomer5(1).png)
+
+**Modifikasi pages/item_page.dart:**
+
+![tugas 2 nomer 5](img/Tugas2Nomer5(2).png)
+
+**hasil output:**
+
+![tugas 2 nomer 5](img/Tugas2Nomer5(3).gif)
+
+6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+
+*jawab:*
+
+**install go_router**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(instalgo_router).png)
+
+**import go_router**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(import_go_router).png)
+
+**Modifikasi pages/main.dart:**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(modif_file_main(1)).png)
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(modif_file_main(2)).png)
+
+**Modifikasi pages/home_page.dart:**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(modif_file_homePage).png)
+
+**Modifikasi pages/item_page.dart:**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(modif_file_itemPage).png)
+
+**hasil output:**
+
+![tugas 2 nomer 6](img/Tugas2Nomer6(output).gif)
