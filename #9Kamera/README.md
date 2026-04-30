@@ -8,7 +8,9 @@
 | NIM     | 244107060109                |
 | Kelas   | SIB-2E                      |
 
-[LINK REPOSITORY KODE PRAKTIKUM](https://github.com/Fizzrss/flutter-fundamental-part1)
+[LINK REPOSITORY KODE PRAKTIKUM 1](https://github.com/Fizzrss/kamera_flutter)
+
+[LINK REPOSITORY KODE PRAKTIKUM 2](https://github.com/Fizzrss/photo_filter_carousel)
 
 ---
 
