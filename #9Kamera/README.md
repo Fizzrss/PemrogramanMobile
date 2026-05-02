@@ -136,7 +136,7 @@ lib/widget/takepicture_screen.dart
 
 Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya!
 
-![praktikum 1 Langkah 9](img/praktikum1langkah9(3).png)
+![praktikum 1 Langkah 9](img/praktikum1langkah9(3).jpeg)
 
 ---
 
