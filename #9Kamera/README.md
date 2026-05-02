@@ -211,6 +211,33 @@ import 'package:flutter/rendering.dart' show ViewportOffset;
 
 ### 2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
 
+*jawab:*
+
+**- Copy file takepicture_screen.dart pada praktikum 1 ke folder photo_filter_carousel**
+
+![tugas 2](img/tugasnomer2(1).png)
+
+**- modif takepicture_screen.dart**
+
+![tugas 2](img/tugasnomer2(2).png)
+
+**- modif filter_carousel.dart**
+
+![tugas 2](img/tugasnomer2(3).png)
+
+**- modif filter_item.dart**
+
+![tugas 2](img/tugasnomer2(4).png)
+
+**- modif filter_selector.dart**
+
+![tugas 2](img/tugasnomer2(5).png)
+
+**Hasil run:**
+
+![tugas 2](img/tugasnomer2(hasilrun).gif)
+
+
 ### 3. Jelaskan maksud void async pada praktikum 1?
 
 *jawab:*
