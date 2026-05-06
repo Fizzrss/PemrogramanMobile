@@ -89,31 +89,38 @@ Lakukan run aplikasi Flutter Anda. Anda akan melihat tampilan akhir seperti gamb
 
 Tambahkan tiga method berisi kode seperti berikut di dalam class _FuturePageState.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum2langkah1.png)
 
 ### Langkah 2: Tambah method count()
 
 Lalu tambahkan lagi method ini di bawah ketiga method sebelumnya.
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum2langkah2.png)
 
 ### Langkah 3: Panggil count()
 
 Lakukan comment kode sebelumnya, ubah isi kode onPressed() menjadi seperti berikut.
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum2langkah3.png)
 
 ### Langkah 4: Run
 
 Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat seperti gambar berikut, hasil angka 6 akan tampil setelah delay 9 detik.
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum2langkah4.png)
 
 > Soal 4
 
 > - Jelaskan maksud kode langkah 1 dan 2 tersebut!
 
+> *jawab*
+
+> Pada Langkah 1, kode digunakan untuk membuat tiga fungsi asynchronous yang masing-masing mensimulasikan proses penundaan selama 3 detik dengan Future.delayed. Setelah waktu tunggu selesai, setiap fungsi akan mengembalikan nilai integer tertentu, yaitu 1, 2, dan 3. Ketiga fungsi ini menggambarkan proses di dunia nyata yang membutuhkan waktu sebelum menghasilkan output, seperti pengambilan data dari server atau database.
+> Sementara itu, pada Langkah 2 (method count), kode berfungsi untuk menjalankan ketiga fungsi tersebut dan menghitung total dari nilai yang dikembalikan. Penggunaan kata kunci await pada setiap pemanggilan fungsi menyebabkan eksekusi dilakukan secara berurutan (sequential). Artinya, program akan menunggu fungsi pertama selesai (3 detik), kemudian melanjutkan ke fungsi kedua, dan seterusnya, sehingga total waktu yang dibutuhkan sekitar 9 detik. Setelah proses perhitungan selesai, method akan memanggil setState untuk memperbarui state aplikasi, sehingga hasil akhirnya dapat langsung ditampilkan pada antarmuka pengguna.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 4".
+
+> ![soal 4](img/soal4(1).gif)
 
 ---
 
