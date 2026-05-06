@@ -194,31 +194,43 @@ Ganti menjadi kode seperti berikut.
 
 Tambahkan method ini ke dalam class _FuturePageState
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum4langkah1.png)
 
 ### Langkah 2: Edit onPressed()
 
 Anda bisa hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut.
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum4langkah2.png)
 
 ### Langkah 3: Run
 
 Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum4langkah3.png)
 
 > Soal 7
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".
+
+> ![soal 7](img/soal7(1).gif)
 
 ### Langkah 4: Ganti variabel futureGroup
 
 Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum4langkah4.png)
+
+**Hasil run**
+
+![Langkah 4](img/soal8(1).gif)
 
 > Soal 8
+
 > - Jelaskan maksud perbedaan kode langkah 1 dan 4!
+
+> *jawab:*
+
+> Perbedaan antara kode pada Langkah 1 dan Langkah 4 terletak pada tingkat efisiensi dalam mengelola beberapa proses asynchronous secara bersamaan. Pada Langkah 1, penggunaan FutureGroup mengharuskan inisialisasi objek secara manual, kemudian menambahkan setiap fungsi satu per satu dengan metode .add(), serta memanggil .close() sebelum hasil akhirnya bisa diakses melalui properti .future. Sebaliknya, pada Langkah 4 digunakan Future.wait yang lebih sederhana dan bersifat deklaratif, karena cukup menerima sebuah list berisi fungsi-fungsi asynchronous yang akan dijalankan. Walaupun keduanya sama-sama mengeksekusi proses secara paralel—sehingga waktu tunggu berkurang dari sekitar 9 detik menjadi hanya 3 detik—Future.wait lebih sering digunakan dalam pengembangan Flutter karena sintaksnya lebih ringkas dan lebih mudah dalam menangani sekumpulan Future yang jumlahnya sudah diketahui.
 
 ---
 
