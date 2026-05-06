@@ -240,27 +240,29 @@ Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
 
 Tambahkan method ini ke dalam class _FuturePageState
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum5langkah1.png)
 
 ### Langkah 2: ElevatedButton
 
 Ganti dengan kode berikut
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum5langkah2.png)
 
 ### Langkah 3: Run
 
 Lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.
 
-![Langkah 2](img/)
+![Langkah 3](img/praktikum5langkah3.png)
 
 Pada bagian debug console akan melihat teks Complete seperti berikut.
 
-![Langkah 2](img/)
+![Langkah 3](img/praktikum5langkah3(2).png)
 
 > Soal 9
 
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 9".
+
+> ![soal 9](img/soal9(1).gif)
 
 ### Langkah 4: Tambah method handleError()
 
