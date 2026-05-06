@@ -332,25 +332,35 @@ Buat class LocationScreen di dalam file geolocation.dart
 
 Panggil screen baru tersebut di file main Anda seperti berikut.
 
-![Langkah 6](img/)
+![Langkah 6](img/praktikum6langkah6.png)
 
 ### Langkah 7: Run
 
 Run project Anda di device atau emulator (bukan browser), maka akan tampil seperti berikut ini.
 
-![Langkah 7](img/)
+![Langkah 7](img/praktikum6langkah7.gif)
 
 ### Langkah 8: Tambahkan animasi loading
 
 Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan perubahannya.
 
-![Langkah 8](img/)
+![Langkah 8](img/praktikum6langkah8.png)
 
 > Soal 12
 
 > - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+> ![soal 12](img/soal12(1).png)
+
 > - Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+> ![soal 12](img/soal12(2).png)
+
+> Ya, Koordinat lokasi tetap bisa diperoleh saat aplikasi dijalankan melalui browser. Hal ini karena plugin geolocator di Flutter sudah mendukung platform web dengan memanfaatkan HTML5 Geolocation API yang tersedia di browser seperti Chrome atau Edge. Perbedaannya, jika pada smartphone Android penentuan lokasi mengandalkan perangkat keras berupa chip GPS untuk hasil yang lebih akurat, maka pada PC atau laptop lokasi ditentukan melalui analisis jaringan, seperti alamat IP atau pemindaian Wi-Fi di sekitar perangkat. Dengan demikian, selama memberikan izin akses lokasi (Allow) pada browser, aplikasi tetap dapat menampilkan nilai latitude dan longitude. Namun, tingkat akurasinya biasanya tidak sebaik ketika menggunakan perangkat mobile.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
+
+> ![soal 12](img/soal12(3).gif)
 
 ---
 
