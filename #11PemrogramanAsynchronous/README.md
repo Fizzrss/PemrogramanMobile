@@ -65,16 +65,21 @@ Tambahkan method ini ke dalam class _FuturePageState yang berguna untuk mengambi
 
 Tambahkan kode pada onPressed di ElevatedButton seperti berikut.
 
-![Langkah 5](img/)
+![Langkah 5](img/praktikum1langkah5.png)
 
 Lakukan run aplikasi Flutter Anda. Anda akan melihat tampilan akhir seperti gambar berikut. Jika masih terdapat error, silakan diperbaiki hingga bisa running.
 
 > Soal 3
 
 > - Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+
+> *jawab:*
+
+> Penggunaan metode substring(0, 450) pada kode tersebut bertujuan untuk membatasi panjang teks hasil respons dari API Google Books. Hal ini dilakukan karena data yang dikembalikan dalam format JSON biasanya cukup panjang, sehingga hanya diambil 450 karakter pertama agar tampilan antarmuka (UI) tetap rapi, tidak terlalu padat, dan mudah dibaca oleh pengguna. Di sisi lain, catchError digunakan sebagai mekanisme penanganan kesalahan dalam proses asynchronous. Jika terjadi kegagalan saat mengambil data dari server—misalnya akibat koneksi internet yang terputus atau adanya masalah pada endpoint API—maka catchError akan menangkap error tersebut dan memberikan respons berupa pesan "An error occurred". Dengan demikian, aplikasi dapat tetap berjalan dengan stabil tanpa mengalami crash.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 3".
 
-![Langkah 5](img/)
+![soal 3](img/soal3(1).gif)
 
 ---
 
