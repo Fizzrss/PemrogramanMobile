@@ -268,11 +268,27 @@ Pada bagian debug console akan melihat teks Complete seperti berikut.
 
 Tambahkan kode ini di dalam class _FutureStatePage
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum5langkah4.png)
 
 > Soal 10
 
 > - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+> *jawab:*
+
+> ![soal 10](img/soal10(1).png)
+
+> **hasil run**
+
+> ![soal 10](img/soal10(2).gif)
+
+> ![soal 10](img/soal10(3).png)
+
+> **penjelasan**
+
+> Hasil eksekusi tersebut terjadi karena penerapan mekanisme penanganan kesalahan melalui blok try-catch-finally. Perbedaan utama antara Langkah 1 (returnError) dan Langkah 4 (handleError) terletak pada peran masing-masing dalam struktur program.
+
+> Pada Langkah 1, kode hanya berfungsi sebagai pemicu error (error generator) yang mensimulasikan proses asynchronous yang sengaja dibuat gagal dengan melemparkan Exception setelah jeda waktu tertentu, tanpa adanya penanganan lebih lanjut. Sebaliknya, pada Langkah 4, kode berperan sebagai pengelola error (error handler). Method dari Langkah 1 dijalankan di dalam blok try, kemudian Exception yang muncul ditangkap oleh blok catch agar aplikasi tidak mengalami crash. Selanjutnya, error yang berhasil ditangkap digunakan untuk memperbarui tampilan antarmuka pengguna secara aman. Proses ini ditutup dengan blok finally, yang memastikan perintah tertentu seperti mencetak output ke terminal tetap dijalankan, baik proses sebelumnya berhasil maupun gagal.
 
 ---
 
