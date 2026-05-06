@@ -166,19 +166,25 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
 
 Gantilah isi code method calculate() seperti kode berikut, atau Anda dapat membuat calculate2()
 
-![Langkah 5](img/)
+![Langkah 5](img/praktikum3langkah5.png)
 
 ### Langkah 6: Pindah ke onPressed()
 
 Ganti menjadi kode seperti berikut.
 
-![Langkah 6](img/)
+![Langkah 6](img/praktikum3langkah6.png)
 
 > Soal 6
 
 > - Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
 
+> *jawab:*
+
+> Perbedaan antara kode pada Langkah 2 dan Langkah 5–6 terletak pada error handling. Pada Langkah 2, proses asynchronous dijalankan dengan asumsi selalu berhasil, sehingga tidak disertai mekanisme untuk menangani kemungkinan kegagalan saat pengambilan data. Sebaliknya, pada Langkah 5 dan 6, struktur kode diperbaiki dengan menerapkan pendekatan defensif. Proses komputasi dibungkus dalam blok try-catch untuk menangkap exception dan mengirimkan sinyal kesalahan melalui completeError. Di sisi antarmuka, ditambahkan metode .catchError() untuk menerima dan menangani error tersebut. Dengan adanya peningkatan ini, aplikasi menjadi lebih stabil karena tidak akan crash saat terjadi masalah, melainkan memberikan informasi kepada pengguna melalui pesan "An error occurred".
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".
+
+> ![soal 6](img/soal6(1).gif)
 
 ---
 
