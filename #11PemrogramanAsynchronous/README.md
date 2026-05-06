@@ -130,31 +130,37 @@ Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat 
 
 Pastikan telah impor package async berikut.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum3langkah1.png)
 
 ### Langkah 2: Tambahkan variabel dan method
 
 Tambahkan variabel late dan method di class _FuturePageState seperti ini.
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum3langkah2.png)
 
 ### Langkah 3: Ganti isi kode onPressed()
 
 Tambahkan kode berikut pada fungsi onPressed(). Kode sebelumnya bisa Anda comment.
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum3langkah3.png)
 
 ### Langkah 4:
 
 Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini. Setelah 5 detik, maka angka 42 akan tampil.
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum3langkah4.png)
 
 > Soal 5
 
 > - Jelaskan maksud kode langkah 2 tersebut!
 
+> *jawab*
+
+> Kode pada Langkah 2 digunakan untuk menunjukkan bagaimana proses asynchronous dapat dikelola secara manual dengan memanfaatkan kelas Completer. Pada method getNumber(), dibuat sebuah objek Completer yang berfungsi menghasilkan sebuah Future kosong, kemudian langsung dikembalikan ke pemanggil melalui completer.future. Bersamaan dengan itu, method tersebut menjalankan fungsi calculate() di latar belakang, yang mensimulasikan proses komputasi atau pengambilan data dengan jeda waktu sekitar 5 detik. Setelah proses delay selesai, fungsi calculate() akan memanggil completer.complete(42) untuk menyelesaikan Future yang sebelumnya masih tertunda. Perintah ini juga sekaligus mengirimkan nilai akhir berupa angka 42, yang nantinya akan ditampilkan oleh antarmuka aplikasi.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 5".
+
+> ![soal 5](img/soal5(1).gif)
 
 ### Langkah 5: Ganti method calculate()
 
