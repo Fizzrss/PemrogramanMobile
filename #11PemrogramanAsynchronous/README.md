@@ -298,7 +298,7 @@ Tambahkan kode ini di dalam class _FutureStatePage
 
 Tambahkan plugin geolocator dengan mengetik perintah berikut di terminal.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum6langkah1.png)
 
 ### Langkah 2: Tambah permission GPS
 
@@ -306,27 +306,27 @@ Jika Anda menargetkan untuk platform Android, maka tambahkan baris kode berikut 
 
 android/app/src/main/androidmanifest.xml
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum6langkah2.png)
 
 ### Langkah 3: Buat file geolocation.dart
 
 Tambahkan file baru ini di folder lib project Anda.
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum6langkah3.png)
 
 ### Langkah 4: Buat StatefulWidget
 
 Buat class LocationScreen di dalam file geolocation.dart
 
-![Langkah 4](img/)
-
 ### Langkah 5: Isi kode geolocation.dart
 
-![Langkah 5](img/)
+![Langkah 5](img/praktikum6langkah5.png)
 
 > Soal 11
 
 > - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+> ![soal 11](img/soal11(1).png)
 
 ### Langkah 6: Edit main.dart
 
