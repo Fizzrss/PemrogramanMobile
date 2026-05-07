@@ -8,7 +8,7 @@
 | NIM     | 244107060109                |
 | Kelas   | SIB-2E                      |
 
-[LINK REPOSITORY KODE PRAKTIKUM](https://github.com/Fizzrss/flutter_plugin_pubdev)
+[LINK REPOSITORY KODE PRAKTIKUM](https://github.com/Fizzrss/books)
 
 ---
 
