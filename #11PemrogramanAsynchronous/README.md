@@ -430,15 +430,18 @@ Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restar
 
 Buatlah file baru ini di project lib Anda.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum8langkah1.png)
 
 ### Langkah 2: Isi kode navigation_first.dart
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum8langkah2.png)
 
 > Soal 15
 
 > - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+> ![soal 13](img/soal15(1).png)
+
 > - Silakan ganti dengan warna tema favorit Anda.
 
 ### Langkah 3: Tambah method di class _NavigationFirstState
