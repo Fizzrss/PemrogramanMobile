@@ -370,30 +370,38 @@ Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan peru
 
 Buka file geolocation.dart kemudian ganti isi method dengan kode ini.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum7langkah1.png)
 
 ### Langkah 2: Tambah variabel
 
 Tambah variabel ini di class _LocationScreenState
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum7langkah2.png)
 
 ### Langkah 3: Tambah initState()
 
 Tambah method ini dan set variabel position
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum7langkah3.png)
 
 ### Langkah 4: Edit method build()
 
 Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum7langkah4.png)
 
 > Soal 13
 
 > - Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+
+> *jawab:*
+
+> Secara tampilan, tidak terdapat perbedaan UI dengan praktikum sebelumnya dengan langkah ini. Keduanya tetap menampilkan animasi loading ketika aplikasi sedang mencari koordinat lokasi, lalu menggantinya dengan informasi lokasi setelah data berhasil diperoleh. Hal tersebut terjadi karena perubahan yang dilakukan hanya pada mekanisme pengelolaan state di backend, bukan pada perubahan tampilan antarmuka. Pada praktikum sebelumnya, pembaruan UI dilakukan secara manual menggunakan setState() dan operator ternary. Sementara itu, pada langkah ini digunakan FutureBuilder, yang mampu secara otomatis memantau status proses asynchronous, seperti waiting maupun done, lalu merender widget yang sesuai. Perubahan ini membuat struktur kode menjadi lebih rapi, efisien, dan mengurangi risiko kesalahan dalam manajemen state, tanpa mengubah antarmuka.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
+
+> ![soal 13](img/soal13(1).gif)
+
 > - Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
 
 ### Langkah 5: Tambah handling error
