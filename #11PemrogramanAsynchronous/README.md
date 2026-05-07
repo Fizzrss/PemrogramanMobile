@@ -448,23 +448,23 @@ Buatlah file baru ini di project lib Anda.
 
 Tambahkan method ini.
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum8langkah3.png)
 
 ### Langkah 4: Buat file baru navigation_second.dart
 
 Buat file baru ini di project lib Anda. Silakan jika ingin mengelompokkan view menjadi satu folder dan sesuaikan impor yang dibutuhkan.
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum8langkah4.png)
 
 ### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum8langkah5.png)
 
 ### Langkah 6: Edit main.dart
 
 Lakukan edit properti home.
 
-![Langkah 6](img/)
+![Langkah 6](img/praktikum8langkah6.png)
 
 ### Langkah 8: Run
 
@@ -473,12 +473,25 @@ Lakukan run, jika terjadi error silakan diperbaiki.
 > Soal 16
 
 > - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+> *jawab*
+
+> Saat salah satu tombol warna seperti Red, Green, atau Blue ditekan pada layar kedua, aplikasi akan otomatis kembali ke layar pertama dan warna latar belakang pada layar pertama berubah sesuai dengan pilihan. Hal ini terjadi karena setiap tombol menjalankan method Navigator.pop(context, color), yang berfungsi untuk menutup layar kedua dari tumpukan navigasi sekaligus mengirimkan data berupa nilai warna (color) ke layar sebelumnya. Di sisi lain, layar pertama yang sebelumnya berada dalam kondisi menunggu melalui await Navigator.push akan menerima data warna tersebut, kemudian menjalankan setState(). Akibatnya, antarmuka pada layar pertama dirender ulang sehingga warna latar belakang berubah sesuai warna yang dipilih.
+
 > - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+>  ![soal 16](img/soal16(2).png)
+
+>  ![soal 16](img/soal16(3).gif)
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
+
+> ![soal 16](img/soal16(1).gif)
 
 Hasilnya akan seperti gambar berikut ini.
 
-![Langkah 8](img/)
+![Langkah 8](img/praktikum8langkah8.png)
+![Langkah 8](img/praktikum8langkah8(2).png)
 
 ---
 
