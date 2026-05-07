@@ -408,12 +408,19 @@ Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.
 
 Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restart.
 
-![Langkah 5](img/)
+![Langkah 5](img/praktikum7langkah5.png)
 
 > Soal 14
 
 > - Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+
+> *jawab:*
+
+> Pada kondisi normal, tampilan UI pada langkah ini terlihat sama seperti langkah sebelumnya, yaitu menampilkan animasi loading yang kemudian berubah menjadi teks koordinat lokasi setelah data berhasil diperoleh. Perbedaan akan terlihat ketika proses pengambilan data lokasi mengalami error. Pada langkah sebelumnya, kegagalan proses dapat menyebabkan aplikasi crash atau menampilkan layar error bawaan sistem karena aplikasi mencoba merender data yang bermasalah atau kosong. Sementara itu, pada langkah ini telah ditambahkan pengecekan snapshot.hasError, sehingga antarmuka dapat akan menampilkan pesan Something terrible happened!.
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
+
+> ![soal 13](img/soal14(1).gif)
 
 ---
 
