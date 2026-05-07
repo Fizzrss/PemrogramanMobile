@@ -501,34 +501,47 @@ Hasilnya akan seperti gambar berikut ini.
 
 Buat file dart baru di folder lib project Anda.
 
-![Langkah 1](img/)
+![Langkah 1](img/praktikum9langkah1.png)
 
 ### Langkah 2: Isi kode navigation_dialog.dart
 
-![Langkah 2](img/)
+![Langkah 2](img/praktikum9langkah2.png)
 
 ### Langkah 3: Tambah method async
 
-![Langkah 3](img/)
+![Langkah 3](img/praktikum9langkah3.png)
 
 ### Langkah 4: Panggil method di ElevatedButton
 
-![Langkah 4](img/)
+![Langkah 4](img/praktikum9langkah4.png)
 
 ### Langkah 5: Edit main.dart
 
 Ubah properti home
 
-![Langkah 5](img/)
+![Langkah 5](img/praktikum9langkah5.png)
 
 ### Langkah 6: Run
 
 Coba ganti warna background dengan widget dialog tersebut. Jika terjadi error, silakan diperbaiki. Jika berhasil, akan tampil seperti gambar berikut.
 
-![Langkah 6](img/)
+![Langkah 6](img/praktikum9langkah6(1).png)
+![Langkah 6](img/praktikum9langkah6(2).png)
 
 > Soal 17
 
 > - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+
+> *jawab*
+
+> Saat salah satu tombol warna pada dialog dipilih, dialog pop-up akan langsung tertutup dan warna latar belakang pada layar utama berubah sesuai dengan warna yang dipilih. Hal tersebut terjadi karena setiap tombol menjalankan Navigator.pop(context, color) yang berfungsi untuk menutup rute antarmuka paling atas yaitu dialog sekaligus mengirimkan nilai warna (color) ke halaman sebelumnya. Selain itu, karena dialog dipanggil menggunakan kata kunci await, program akan menunggu hingga dialog selesai ditutup sebelum melanjutkan eksekusi kode berikutnya. Setelah dialog tertutup, setState(() {}) dijalankan untuk memperbarui state aplikasi. Akibatnya, layar utama dirender ulang (rebuild) dan perubahan warna latar belakang langsung terlihat pada antarmuka pengguna.
+
 > - Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+> ![soal 17](img/soal17(2).png)
+
+> ![soal 17](img/soal17(3).gif)
+
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 17".
+
+> ![soal 17](img/soal17(1).gif)
